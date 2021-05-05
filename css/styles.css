@@ -17,3 +17,9 @@ p{
     color: darkblue;
     
 }
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+
+}
