@@ -25,16 +25,34 @@ body{
     padding-left: 2rem;   
 }
 
-.content{
+.header-content {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+}
+
+.header-logo {
+    width: 60%;
+}
+
+.header-opciones {
+    width: 40%;
+}
+
+.header-opciones-li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.content img:first-of-type {
+    margin-left: 0;
 }
 
 img{
     width: 100%;
     height: auto;
 }
+
 
 .logo{
     width: auto;
