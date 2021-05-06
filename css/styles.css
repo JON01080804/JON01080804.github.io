@@ -3,53 +3,91 @@ es como JAVA
 No existen comentarios de linea
 */
 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+/*Utilidades*/
+.ho:hover {
+    color: rgb(233, 13, 57);
+}
+
+/*Fin utilidades*/
+
 
 body{
-    margin-right: 3rem;
-    margin-left: 3rem;   
+    padding-right: 2rem;
+    padding-left: 2rem;   
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 img{
     width: 100%;
     height: auto;
-    
 }
 
 .logo{
-width: auto;
-height: auto;
-margin-top: 2rem;
+    width: auto;
+    height: auto;
+    float: left;
 }
 
 h2{
-    
-    color: brown;
-    
+    color: brown; 
 }
 
 p{
     color: darkblue;
+}
+
+nav {    
+    
+    background-color: rgb(236, 146, 146);
     
 }
 
-div {
+nav ul{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 10% 2rem 10%;
-    color: red;
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
+nav li {
+    color: black;
+    list-style-type: none;
+    padding: 10px 0 10px 0;
+}
+
 .animate__zoomIn {
-    
-   
     animation: zoom; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 3s; /* don't forget to set a duration! */
-  }
-
-a {
-    text-decoration: none;
 }
+
+a{
+    color: black;
+}
+
+footer {
+    padding: 2rem 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
