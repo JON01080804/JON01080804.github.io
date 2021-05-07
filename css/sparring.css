@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body {
+    padding: 1rem;
+    
+}
+
+h1, h2, h3 {
+    color: teal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.titulo-mayusculas {
+    color: rgb(167, 103, 114);
+    text-transform: uppercase;
+}
+
+#tituloUnico {
+    color: black;
+    text-transform: capitalize;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    width: 100%;
+    height: auto;
+    transition-duration: 1.5s;
+}
