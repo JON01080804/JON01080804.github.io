@@ -1,0 +1,46 @@
+.btn-block {
+    width: 100%;
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-bottom: 1.5rem !important;
+}
+
+form {
+    margin: auto; /* centra en horizontal */
+}
+
+footer {
+    position: absolute;  /* poscionar el pie abajo del todo */
+    bottom: 0;
+    width: 100%;
+}
+
+footer a, footer p {
+    color: #FFF !important;
+    margin-right: 1rem;
+}
+
+footer a:hover {
+    color: rgb(231, 165, 58) !important;
+    font-size: 1.5rem;
+}
+
+footer p:hover {
+    color: rgb(250, 250, 250) !important;
+    font-size: 1.2rem;
+}
+
+footer li {
+    list-style: none;   /* quitar el puntito a los LIs en las listas */
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+footer .info {
+    width: 70%;
+}
+footer .rrss {
+    width: 30%;
+} 
