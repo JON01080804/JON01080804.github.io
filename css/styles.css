@@ -36,30 +36,37 @@ body{
 
 header {
     background-color: rgba(207, 155, 136, 0.568);
-    width: 100%;
-    padding: 1rem;
+    margin:0.5rem 0;
+   
+    
+}
+
+#header-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
-    flex-flow: row wrap;
 }
 
 .header-logo {
-    width: 50%;
-    display: inherit;
+    width: 30%;
+    display: flex;
+    align-items: center;
 }
 
 
 .header-logo img{
     width: 5rem;
     height: 5rem;   
-    
 }
 
-.header-opciones ul {
-    width: 50%;
-    
+.header-opciones {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;       
+}
+
+.ho {
+    margin-right: 0.5rem;
 }
 
 h2{
